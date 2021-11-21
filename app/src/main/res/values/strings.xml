@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simple Calculation</string>
+    <string name="add">Addition</string>
+    <string name="sub">Subtraction</string>
+    <string name="mul">Multiplication</string>
+    <string name="div">Division</string>
+    <string name="res">Result:</string>
+    <string name="cal">Calculation</string>
+    <string name="input">Enter two numbers:</string>
+    <string name="fr">First number:</string>
+    <string name="sc">Second number:</string>
+    <string name="ch">Choose a operation:</string>
+</resources>

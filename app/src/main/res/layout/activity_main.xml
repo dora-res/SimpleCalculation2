@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textColor="#C32828"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:id="@+id/app"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/input"
+        android:textColor="#C32828"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/enter"
+        />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:hint="@string/fr"
+    android:textColor="#C32828"
+    android:textStyle="bold"
+    android:textSize="17sp"
+        android:id="@+id/firstNumber"
+        android:inputType="numberDecimal"
+    />
+
+       <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:hint="@string/sc"
+    android:textColor="#C32828"
+    android:textStyle="bold"
+    android:textSize="17sp"
+           android:id="@+id/secondNumber"
+           android:inputType="numberDecimal"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/ch"
+        android:textColor="#C32828"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/choose"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/add"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#BD0606"
+        android:id="@+id/add"
+        />
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/sub"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#BD0606"
+       android:id="@+id/sub"
+        />
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/mul"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#BD0606"
+       android:id="@+id/mul"
+        />
+
+   <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/div"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:backgroundTint="#BD0606"
+       android:id="@+id/div"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/res"
+        android:textColor="#C32828"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:id="@+id/result"
+        />
+
+</LinearLayout>
